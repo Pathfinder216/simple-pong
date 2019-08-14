@@ -16,7 +16,7 @@ ApplicationWindow {
 
     Component.onCompleted: showMaximized()
 
-    readonly property int playerVelocity: 140
+    readonly property int playerVelocity: 14
 
     function paddleCollisionCheck(paddle, ball) {
         return ball.x + ball.width > paddle.x && ball.x < paddle.x + paddle.width &&

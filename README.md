@@ -2,24 +2,20 @@
 A simple game of pong, written in PyQt and QML during a plane flight.
 
 ## Install
-* Install Python 3.6
-* Install pipenv
+* Install Python 3, version 11 or greater
+* Install poetry
 ```
-pip install --user pipenv
+pip install --user poetry
 ```
 * Clone this repository
-* Inside a pipenv for the project, install a version of pip that works with pipenv
-```
-pipenv run pip install --upgrade pip==18.0
-```
 * Install dependencies
 ```
-pipenv sync
+poetry sync
 ```
 
 ## Usage
 ```
-pipenv run python pong.py
+poetry run python pong.py
 ```
 
 Use the 1 and 2 keys to move player one up and down.

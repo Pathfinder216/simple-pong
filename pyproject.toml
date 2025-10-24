@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "simple-pong"
+version = "0.1.0"
+description = ""
+authors = ["Ben Green <benno.green@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyqt5-qt5 = "5.15.2"
+pyqt5 = "^5.15.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
